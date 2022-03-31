@@ -28,24 +28,27 @@ header nav {
 .colorramp{
     background: linear-gradient(90deg,#FF09E0, #FF7D00);
     width: 100%;
-    height: 5px;
+    height: 7px;
 }
 .header-navigation{
     background-color: rgba(0, 0, 0, 0.6);
-    height: 150px;
+    height: 160px;
 }
 
 nav{
     text-align: center;
     word-spacing: 75px;
     padding: 20px;
+    
 }
 
 nav a{
-    font-size: 30px;
+    font-size: 40px;
     font-family: LogoFont;
     text-decoration: none;
     color: white;
+    line-height: 120px;
+    text-transform: uppercase;
 }
 
 nav a:hover{
@@ -91,12 +94,13 @@ p{
 
 .cover{
     border-radius: 10px;
+    width: 375px;
+    margin: 2000px;
 }
 
 .center{
     display: block;
-    margin: 3em auto;
-    width: 375px;
+    margin: auto;
 }
 
 .buy{
@@ -118,8 +122,20 @@ footer{
 }
 
 .Logo{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    width: 250px;
+}
+
+.topnav{
+    width: 30%;
+    float: left            ;
+}
+
+.topnavlogo{
+    width: 15%;
+    float: left;
+}
+
+.nav{
+    width: 70%;
+    margin: auto;
 }
