@@ -57,7 +57,7 @@ nav a:hover{
 
 article{
     margin: 5% 12.5%;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px;
     background: rgba(0, 0, 0, 0.4);
     border-radius: 25px;
 }
