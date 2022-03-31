@@ -1,0 +1,125 @@
+@font-face {
+    font-family: AmsiSemiBold;
+    src: url(./fonts/AmsiProAKSNormal-SemiBold.ttf);
+}@font-face {
+    font-family: AmsiSemiBoldItalic;
+    src: url(./fonts/AmsiProAKSNormal-SemiBoldItalic.ttf);
+}@font-face {
+    font-family: LogoFont;
+    src: url(./fonts/LimerickSerial-XboldItalic.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), rgb(59, 53, 46)), url('images/Background1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: AmsiSemiBold;
+    color: white;
+}
+
+header svg,
+header nav {
+    vertical-align: middle;
+}
+
+.colorramp{
+    background: linear-gradient(90deg,#FF09E0, #FF7D00);
+    width: 100%;
+    height: 5px;
+}
+.header-navigation{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 150px;
+}
+
+nav{
+    text-align: center;
+    word-spacing: 75px;
+    padding: 20px;
+}
+
+nav a{
+    font-size: 30px;
+    font-family: LogoFont;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline solid;
+}
+
+article{
+    margin: 5% 12.5%;
+    padding: 10px 50px 10px 50px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+}
+
+.paragraph-trenner{
+    width: 75%;
+    height: 5px;
+    background: linear-gradient(90deg,#FF09E0, #FF7D00);
+    display: block;
+    margin: 30px auto;
+}
+
+.h1,h1{
+    font-size: 75px;
+    margin: 0;
+}
+
+p{
+    font-size: 40px;
+    line-height: 1.25;
+    word-spacing: 5px;
+}
+
+.wrap{
+    overflow: auto;
+}
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.cover{
+    border-radius: 10px;
+}
+
+.center{
+    display: block;
+    margin: 3em auto;
+    width: 375px;
+}
+
+.buy{
+    text-align: center;
+    font-family: AmsiSemiBoldItalic;
+    font-size:60px;
+    margin: 0 0 90px 0;
+}
+
+.buy a{
+    color: white;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: rgb(48, 48, 48);
+    height: 150px;
+    text-align: center;
+}
+
+.Logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
