@@ -32,7 +32,7 @@ header nav {
 }
 .header-navigation{
     background-color: rgba(0, 0, 0, 0.6);
-    height: 160px;
+    height: 170px;
 }
 
 nav{
@@ -51,7 +51,12 @@ nav a{
     text-transform: uppercase;
 }
 
-nav a:hover{
+.Logo{
+    width: 250px;
+    margin-bottom: -55px;
+}
+
+nav a:hover:not(.Logo){
     text-decoration: underline solid;
 }
 
@@ -95,7 +100,7 @@ p{
 .cover{
     border-radius: 10px;
     width: 375px;
-    margin: 2000px;
+    padding-top: 30px;
 }
 
 .center{
@@ -119,10 +124,6 @@ footer{
     background-color: rgb(48, 48, 48);
     height: 150px;
     text-align: center;
-}
-
-.Logo{
-    width: 250px;
 }
 
 .topnav{
