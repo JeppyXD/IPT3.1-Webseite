@@ -32,7 +32,6 @@ header nav {
 }
 .header-navigation{
     background-color: rgba(0, 0, 0, 0.6);
-    height: 170px;
 }
 
 nav{
@@ -47,12 +46,12 @@ nav a{
     font-family: LogoFont;
     text-decoration: none;
     color: white;
-    line-height: 120px;
+    line-height: 3em;
     text-transform: uppercase;
 }
 
 .Logo{
-    width: 250px;
+    width: 15%;
     margin-bottom: -55px;
 }
 
