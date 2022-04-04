@@ -26,6 +26,12 @@ body{
 h1{
     max-lines: 1;
     font-family: AmsiBoldItalic;
+    font-size: 75px;
+    margin: 0;
+}
+h2{
+    font-size: 50px;
+    margin: 0;
 }
 
 header nav {
@@ -79,11 +85,6 @@ article{
     background: linear-gradient(90deg,#FF09E0, #FF7D00);
     display: block;
     margin: 30px auto;
-}
-
-.h1,h1{
-    font-size: 75px;
-    margin: 0;
 }
 
 p{
