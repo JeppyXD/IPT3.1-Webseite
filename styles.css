@@ -7,6 +7,9 @@
 }@font-face {
     font-family: LogoFont;
     src: url(./fonts/LimerickSerial-XboldItalic.ttf);
+}@font-face {
+    font-family: AmsiBoldItalic;
+    src: url(./fonts/AmsiProAKSNormal-BoldItalic.ttf);
 }
 
 body{
@@ -20,7 +23,11 @@ body{
     color: white;
 }
 
-header svg,
+h1{
+    max-lines: 1;
+    font-family: AmsiBoldItalic;
+}
+
 header nav {
     vertical-align: middle;
 }
@@ -51,8 +58,8 @@ nav a{
 }
 
 .Logo{
-    width: 15%;
-    margin-bottom: -55px;
+    width: 250px;
+    margin: 0 0 -55px 0;
 }
 
 nav a:hover:not(.Logo){
@@ -125,17 +132,7 @@ footer{
     text-align: center;
 }
 
-.topnav{
+.navwidthtext{
     width: 30%;
-    float: left            ;
-}
-
-.topnavlogo{
-    width: 15%;
     float: left;
-}
-
-.nav{
-    width: 70%;
-    margin: auto;
 }
