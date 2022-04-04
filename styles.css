@@ -55,16 +55,16 @@ nav{
 }
 
 nav a{
-    font-size: 40px;
+    font-size: 30px;
     font-family: LogoFont;
     text-decoration: none;
     color: white;
-    line-height: 3em;
+    line-height: 4em;
     text-transform: uppercase;
 }
 
 .Logo{
-    width: 250px;
+    width: 200px;
     margin: 0 0 -55px 0;
 }
 
