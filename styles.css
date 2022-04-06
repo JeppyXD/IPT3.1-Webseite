@@ -15,10 +15,12 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: rgb(59, 53, 46);
     background-image:
-    linear-gradient(to bottom, rgba(245, 246, 252, 0), rgb(59, 53, 46)), url('images/Background1.jpg');
+        linear-gradient(to bottom, rgba(245, 246, 252, 0) 0%, rgb(59, 53, 46) 100vh), url('images/Background1.jpg');
+    background-size:auto;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: 100% auto;
     font-family: AmsiSemiBold;
     color: white;
 }
@@ -47,35 +49,36 @@ header nav {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+
 nav{
-    text-align: center;
-    word-spacing: 75px;
+    margin: 0 12.5%;
     padding: 20px;
-    
+    word-spacing: 5.5vh;
 }
 
 nav a{
-    font-size: 30px;
+    font-size: 2.25vh;
     font-family: LogoFont;
     text-decoration: none;
     color: white;
-    line-height: 4em;
     text-transform: uppercase;
 }
 
 .Logo{
-    width: 200px;
-    margin: 0 0 -55px 0;
+    width: 40vh;
+    vertical-align: middle;
 }
 
-nav a:hover:not(.Logo){
+nav a:hover:not(.LogoClick){
     text-decoration: underline solid;
+    cursor: pointer;
 }
 
 article{
-    margin: 5% 12.5%;
+    margin: 3% 12.5%;
     padding: 10px 50px;
     background: rgba(0, 0, 0, 0.4);
+    min-height: 600px;
     border-radius: 25px;
 }
 
@@ -93,9 +96,7 @@ p{
     word-spacing: 5px;
 }
 
-.wrap{
-    overflow: auto;
-}
+
 .floatleft {
     float: left;
 }
@@ -127,13 +128,77 @@ p{
     text-transform: uppercase;
 }
 
-footer{
-    background-color: rgb(48, 48, 48);
-    height: 150px;
-    text-align: center;
-}
-
 .navwidthtext{
     width: 30%;
     float: left;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000a1;
+    min-width: 14vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 1.5vh 2vh;
+    font-size: 1.75vh;
+    word-spacing: normal;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+  }
+  
+.dropdown-content a:hover {
+    background-image: linear-gradient(90deg,#FF09E088, #FF7D0088);
+    text-decoration: none;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;;
+}
+
+iframe{
+    display: block;
+    margin: 600px auto 0 auto;
+}
+
+footer div{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+footer li, footer a{
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: AmsiSemiBoldItalic;
+    font-size: 1.5vh;
+}
+
+footer a:hover{
+    text-decoration: underline 2px white;
+}
+
+footer h3{
+    font-family: AmsiSemiBold;
+    font-size: 2.25vh;
+}
+
+.footercontent{
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+}
+
+footer li, footer ul{
+    padding: 0;
+    list-style: none;
 }
