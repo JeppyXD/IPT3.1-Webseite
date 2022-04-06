@@ -12,6 +12,7 @@
     src: url(./fonts/AmsiProAKSNormal-BoldItalic.ttf);
 }
 
+/*Body*/
 body{
     padding: 0;
     margin: 0;
@@ -25,6 +26,7 @@ body{
     color: white;
 }
 
+/*Elements*/
 h1{
     max-lines: 1;
     font-family: AmsiBoldItalic;
@@ -35,43 +37,8 @@ h2{
     font-size: 50px;
     margin: 0;
 }
-
-header nav {
-    vertical-align: middle;
-}
-
-.colorramp{
-    background: linear-gradient(90deg,#FF09E0, #FF7D00);
-    width: 100%;
-    height: 7px;
-}
-.header-navigation{
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-
-nav{
-    margin: 0 12.5%;
-    padding: 20px;
-    word-spacing: 5.5vh;
-}
-
-nav a{
-    font-size: 2.25vh;
-    font-family: LogoFont;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-}
-
-.Logo{
-    width: 40vh;
-    vertical-align: middle;
-}
-
-nav a:hover:not(.LogoClick){
-    text-decoration: underline solid;
-    cursor: pointer;
+h3{
+    font-size: 27.5px;
 }
 
 article{
@@ -82,20 +49,36 @@ article{
     border-radius: 25px;
 }
 
-.paragraph-trenner{
-    width: 75%;
-    height: 5px;
-    background: linear-gradient(90deg,#FF09E0, #FF7D00);
-    display: block;
-    margin: 30px auto;
-}
-
 p{
     font-size: 40px;
     line-height: 1.25;
     word-spacing: 5px;
 }
 
+iframe{
+    display: block;
+    margin: 3% auto;
+}
+
+
+/*Classes*/
+.wrap{
+    overflow: auto;
+}
+
+.Logo{
+    width: 40vh;
+    vertical-align: middle;
+}
+
+.paragraph-trenner{
+    width: 90%;
+    height: 5px;
+    background: linear-gradient(90deg,#FF09E0, #FF7D00);
+    display: block;
+    margin: 30px auto;
+    border-radius: 2px;
+}
 
 .floatleft {
     float: left;
@@ -114,6 +97,7 @@ p{
 .center{
     display: block;
     margin: auto;
+    text-align: center;
 }
 
 .buy{
@@ -132,29 +116,78 @@ p{
     width: 30%;
     float: left;
 }
-  
-  .dropdown {
+
+.awards-list{
+    text-align: center;
+    padding: 6%;
+    font-size: 40px;
+    font-family: AmsiSemiBoldItalic;
+}
+
+.content{
+    margin: auto 5%;
+}
+
+.borderradius{
+    border-radius: 10px;
+}
+
+/*Navigation*/
+nav{
+    margin: 0 12.5%;
+    padding: 20px;
+    word-spacing: 5.5vh;
+}
+
+.colorramp{
+    background: linear-gradient(90deg,#FF09E0, #FF7D00);
+    width: 100%;
+    height: 7px;
+}
+.header-navigation{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header nav {
+    vertical-align: middle;
+}
+
+nav a{
+    font-size: 2.25vh;
+    font-family: LogoFont;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav a:hover:not(.LogoClick){
+    text-decoration: underline solid;
+    cursor: pointer;
+}
+
+/*Navigatio Dropdown*/
+.dropdown {
     position: relative;
     display: inline-block;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #000000a1;
     min-width: 14vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
-  .dropdown-content a {
+.dropdown-content a {
     padding: 1.5vh 2vh;
     font-size: 1.75vh;
     word-spacing: normal;
     text-decoration: none;
     display: block;
     text-decoration: none;
-  }
+}
   
 .dropdown-content a:hover {
     background-image: linear-gradient(90deg,#FF09E088, #FF7D0088);
@@ -165,10 +198,7 @@ p{
     display: block;;
 }
 
-iframe{
-    display: block;
-    margin: 600px auto 0 auto;
-}
+/*Footer*/
 
 footer div{
     width: 33.33%;
