@@ -44,7 +44,7 @@ h3{
 
 article{
     margin: 3% 12.5%;
-    padding: 2% 1%;
+    padding: 2% 5%;
     background: rgba(0, 0, 0, 0.4);
     min-height: 600px;
     border-radius: 25px;
@@ -70,6 +70,33 @@ iframe{
 
 
 /*Classes*/
+
+.flex-container{
+    gap: 0;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    display: flex;
+}
+
+.flex-item1{
+    flex:1;
+}
+.flex-item2{
+    flex:2;
+}
+.flex-item3{
+    flex:3;
+}
+.flex-item4{
+    flex:4;
+}
+.flex-item5{
+    flex:5;
+}
+
 .wrap{
     overflow: auto;
 }
@@ -203,10 +230,10 @@ nav a:hover:not(.LogoClick){
 
 /*Footer*/
 
-footer div{
-    width: 33.33%;
+.footerflex{
     float: left;
     text-align: center;
+    flex: 1;
 }
 
 footer li, footer a{
@@ -226,7 +253,7 @@ footer h3{
     font-size: 2.25vh;
 }
 
-.footercontent{
+.footerconent{
     background-color: rgb(48, 48, 48);
     width: 100%;
 }
