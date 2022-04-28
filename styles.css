@@ -13,6 +13,9 @@
 }@font-face {
     font-family: AmsiUltra;
     src: url(./fonts/AmsiProAKSNormal-Ultra.ttf);
+}@font-face {
+    font-family: AmsiBold;
+    src: url(./fonts/AmsiProAKSNormal-Bold.ttf);
 }
 
 /*Body*/
