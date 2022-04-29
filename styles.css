@@ -22,7 +22,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(59, 53, 46);
+    background-color: grey;
     background-size:auto;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -165,6 +165,11 @@ iframe{
     border-radius: 10px;
 }
 
+.default{
+    color: white;
+    text-decoration: none;
+}
+
 /*Navigation*/
 nav{
     margin: 0 12.5%;
@@ -270,12 +275,10 @@ footer li, footer ul{
     height: 200px;
 }
 .image{
-    height: 150px;
-    width: 15vw;
-    float: inherit;
     border-radius: 10px;
 }
 .image:hover{
-    height: 155px;
-    width: 15.5vw;
+    transform: scale(1.05);
+    border: 2px white solid;
+    transition: 0.1s;
 }
