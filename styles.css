@@ -265,3 +265,17 @@ footer li, footer ul{
     padding: 0;
     list-style: none;
 }
+
+.racetypes{
+    height: 200px;
+}
+.image{
+    height: 150px;
+    width: 15vw;
+    float: inherit;
+    border-radius: 10px;
+}
+.image:hover{
+    height: 155px;
+    width: 15.5vw;
+}
