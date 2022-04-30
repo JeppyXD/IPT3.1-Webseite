@@ -28,6 +28,7 @@ body{
     background-size: 100% auto;
     font-family: AmsiSemiBold;
     color: white;
+    font-size: 16px;
 }
 
 /*Elements*/
@@ -38,8 +39,9 @@ h1{
     margin: 0;
 }
 h2{
-    font-size: 50px;
-    margin: 0;
+    font-size: 2vw;
+    margin: 0.5vw 0;
+    line-height: 2.5vw;
 }
 h3{
     font-size: 27.5px;
