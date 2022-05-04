@@ -35,16 +35,32 @@ body{
 h1{
     max-lines: 1;
     font-family: AmsiBoldItalic;
-    font-size: 75px;
+    font-size: 4vw;
     margin: 0;
 }
 h2{
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 0.5vw 0;
-    line-height: 2.5vw;
+    line-height: 3vw;
 }
 h3{
-    font-size: 27.5px;
+    font-size: 1.25vw;
+}
+h4{
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+h5{
+    font-size: 0.75vw;
+}
+h6{
+    font-size: 0.5vw;
+}
+
+p{
+    font-size: 30px;
+    line-height: 1.25;
+    word-spacing: 5px;
 }
 
 article{
@@ -53,12 +69,6 @@ article{
     background: rgba(0, 0, 0, 0.4);
     min-height: 600px;
     border-radius: 25px;
-}
-
-p{
-    font-size: 30px;
-    line-height: 1.25;
-    word-spacing: 5px;
 }
 
 li{
@@ -72,7 +82,6 @@ iframe{
     margin: 3% auto;
     max-width: 100%;
 }
-
 
 /*Classes*/
 
@@ -131,7 +140,8 @@ iframe{
 
 .center{
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -172,6 +182,10 @@ iframe{
     text-decoration: none;
 }
 
+.carlist{
+    font-size: 3.5vw;
+}
+
 /*Navigation*/
 nav{
     margin: 0 12.5%;
@@ -182,7 +196,7 @@ nav{
 .colorramp{
     background: linear-gradient(90deg,#FF09E0, #FF7D00);
     width: 100%;
-    height: 7px;
+    height: 0.3vw;
 }
 .header-navigation{
     background-color: rgba(0, 0, 0, 0.6);
