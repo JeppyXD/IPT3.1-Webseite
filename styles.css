@@ -78,7 +78,7 @@ li{
     line-height: 2;
 }
 
-li::marker{
+.count{
     font-size: 80px;
 }
 
