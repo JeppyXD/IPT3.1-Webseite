@@ -309,7 +309,7 @@ footer li, footer ul{
     text-decoration: underline 2px white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5 {
       flex: 100%;
     }
