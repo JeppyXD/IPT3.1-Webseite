@@ -31,24 +31,27 @@ body{
     font-size: 16px;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 /*Elements*/
 h1{
     max-lines: 1;
     font-family: AmsiBoldItalic;
-    font-size: 75px;
+    font-size: 1.5em;
     margin: 0;
 }
 h2{
-    font-size: 3vw;
+    font-size: 1em;
     margin: 0.5vw 0;
-    line-height: 3vw;
 }
 h3{
-    font-size: 25px;
+    font-size: em;
 }
 h4{
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 0.5em;
+    line-height: 1.5em;
 }
 h5{
     font-size: 0.75vw;
@@ -90,15 +93,12 @@ iframe{
 
 /*Classes*/
 
-.flex-container{
-    gap: 0;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: stretch;
+.flex-container {
     display: flex;
-}
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
 
 .flex-item1{
     flex:1;
@@ -297,6 +297,7 @@ footer li, footer ul{
 }
 .image{
     border-radius: 10px;
+    margin: 0.5em;
 }
 .image:hover{
     transform: scale(1.05);
@@ -307,3 +308,9 @@ footer li, footer ul{
 .link:hover{
     text-decoration: underline 2px white;
 }
+
+@media only screen and (max-width: 600px) {
+    .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5 {
+      flex: 100%;
+    }
+  }
