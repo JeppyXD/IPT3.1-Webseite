@@ -313,4 +313,15 @@ footer li, footer ul{
     .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5 {
       flex: 100%;
     }
-  }
+}
+
+.ani{
+    opacity: 0;
+    transition: 0.5s ease;
+    transform: scaleX(0) translateY(1em);
+}
+
+.active{
+    opacity: 1;
+    transform: scaleX(1) translateY(0);
+}
