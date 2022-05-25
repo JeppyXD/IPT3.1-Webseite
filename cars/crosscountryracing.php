@@ -3,7 +3,7 @@
 	$username = "joel.erni";
 	$password = "Jsf87648?";
 	$dbname = "FH5";
-    $rt = 1;
+
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -12,10 +12,8 @@
 		die("Connection failed: " . mysqli_connect_error());
 	}
 
-	$sqlcar = "SELECT * FROM car";
-    $sqltype "SELECT * FROM racingtype WHERE racetypeid = $rt";
-	$resultcar = mysqli_query($conn, $sqlcar);
-    $resulttype = mysqli_query($conn, $sqltype);
+	$sql = "SELECT * FROM car";
+	$result = mysqli_query($conn, $sql);
 
 	if (mysqli_num_rows($result) > 0) {
 
@@ -67,10 +65,10 @@
             <ol reversed>
                 <li class="carlist">
                     <div>
-                        <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php while($row = mysqli_fetch_assoc($resultcar)) {echo $row["bez"];}?></h1>
+                        <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php while($row = mysqli_fetch_assoc($result)) {echo $row["bez"];}?></h1>
                         <div class="flex-container">
                             <div class="flex-item1" style="margin: auto 1vw;">
-                                <img class="center" src="/images/cars/<?php while($row = mysqli_fetch_assoc($resulttype)) {echo $row["bez"];}?>/5.png" width="500em">
+                                <img class="center" src="/images/cars/crosscountryracing/5.png" width="500em">
                             </div>
                             <div class="flex-item2">
                                 <div><h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center">Gifted as part of a promotion or content pack</h2></div>
