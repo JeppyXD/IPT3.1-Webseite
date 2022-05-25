@@ -1,0 +1,4 @@
+use FH5;
+INSERT into car(bez,price,speed,handling,acceleration,launch,braking,offroad,fk_racetypeid, rank) VALUES 
+('Name','Price', 8, 10, 10, 10, 9.4, 4.4, 1,5)
+;

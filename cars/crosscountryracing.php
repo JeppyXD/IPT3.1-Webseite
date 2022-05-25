@@ -40,7 +40,7 @@
             <ol reversed>
                 <li class="carlist">
                     <div>
-                        <h1 class="center" style="line-height: 1; margin-bottom: 40px;">BMW X5 M FE</h1>
+                        <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php echo .[mysql_query("SELECT bez FROM car WHERE rank=5" and fk_racetypeid=1)]?></h1>
                         <div class="flex-container">
                             <div class="flex-item1" style="margin: auto 1vw;">
                                 <img class="center" src="/images/cars/crosscountryracing/5.png" width="500em">
@@ -377,14 +377,10 @@
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql = "SELECT speed, price, bez FROM DirtRacing";
         $result = mysqli_query($conn, $sql);
 
         if (mysqli_num_rows($result) > 0) {
-            // output data of each row
-            while($row = mysqli_fetch_assoc($result)) {
-                echo "speed: " . $row["speed"]. " - Name: " . $row["bez"]. " - Preis: " . $row["price"]. "<br>";
-            }
+
         } else {
             echo "0 results";
         }
