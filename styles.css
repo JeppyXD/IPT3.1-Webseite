@@ -317,11 +317,9 @@ footer li, footer ul{
 
 .ani{
     opacity: 0;
-    transition: 0.5s ease;
-    transform: scaleX(0) translateY(1em);
+    transition: 5s ease;
 }
 
 .active{
     opacity: 1;
-    transform: scaleX(1) translateY(0);
 }
