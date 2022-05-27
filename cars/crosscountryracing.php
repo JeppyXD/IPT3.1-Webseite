@@ -62,7 +62,7 @@
             <div class="colorramp"></div>
         </header>
         <article>
-            <h1 class="center" style="font-size: 4em;">Top 5 cars for cross-country racing</h1>
+            <h1 class="center" style="font-size: 4em;">Top 5 cars for <?php echo $gt?></h1>
             <div class="paragraph-trenner"></div>
 
             <ol reversed>
