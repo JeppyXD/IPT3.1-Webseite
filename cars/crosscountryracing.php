@@ -81,19 +81,19 @@
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Speed<br><?php echo $row["speed"];?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 80%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["speed"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Handling<br><?php echo $row["handling"];?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 100%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["handling"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Acceleration<br><?php echo $row["acceleration"];?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 100%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["acceleration"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -101,19 +101,19 @@
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Launch<br><?php echo $row["launch"];?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 100%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["launch"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Braking<br><?php echo $row["braking"];?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 94%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["braking"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 44%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -141,19 +141,19 @@
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Speed<br><?php echo $row["speed"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 42%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["speed"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Handling<br><?php echo $row["handling"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 41%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["handling"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Acceleration<br><?php echo $row["acceleration"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 86%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["acceleration"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -161,19 +161,19 @@
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Launch<br><?php echo $row["launch"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 100%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["launch"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Braking<br><?php echo $row["braking"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 67%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["braking"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 100%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -198,19 +198,19 @@
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Speed<br><?php echo $row["speed"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 76%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["speed"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Handling<br><?php echo $row["handling"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 65%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["handling"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Acceleration<br><?php echo $row["acceleration"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 95%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["acceleration"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -218,19 +218,19 @@
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Launch<br><?php echo $row["launch"];?></h3>
-                                                <div class="center  ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 52%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["launch"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Braking<br><?php echo $row["braking"];?></h3>
-                                                <div class="center  ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 53%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["braking"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
-                                                <div class="center  ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 83%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -255,19 +255,19 @@
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Speed<br><?php echo $row["speed"];?></h3>
-                                                <div class="center  ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 42%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["speed"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Handling<br><?php echo $row["handling"];?></h3>
-                                                <div class="center  ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 32%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["handling"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Acceleration<br><?php echo $row["acceleration"];?></h3>
-                                                <div class="center  ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 24%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["acceleration"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -275,19 +275,19 @@
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Launch<br><?php echo $row["launch"];?></h3>
-                                                <div class="center  ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 42%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["launch"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Braking<br><?php echo $row["braking"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 28%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["braking"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 78%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -310,21 +310,21 @@
                                 <table width="100%">
                                     <tr>
                                         <th>
-                                            <div style="margin:0.5vw;">
+                                            <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Speed<br><?php echo $row["speed"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 47%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["speed"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Handling<br><?php echo $row["handling"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 42%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["handling"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Acceleration<br><?php echo $row["acceleration"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 61%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["acceleration"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -332,19 +332,19 @@
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Launch<br><?php echo $row["launch"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 52%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["launch"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Braking<br><?php echo $row["braking"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 52%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["braking"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
                                                 <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
-                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 100%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <div class="center ani" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
