@@ -1,11 +1,10 @@
 
 function mobileon() {
-    console.log("asd");
-    //document.getElementById("mobile-nav").style.display='block';
+    document.getElementById("mobile-nav").style.display="block";
   }
   
 function mobileoff() {
-    document.getElementById("mobile-nav").style.display = 'none';
+    document.getElementById("mobile-nav").style.display = "none";
   }
 window.addEventListener("load", myInit, true); function myInit(){OnStart()};
     function OnStart(){
