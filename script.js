@@ -1,3 +1,12 @@
+
+function mobileon() {
+    console.log("asd");
+    //document.getElementById("mobile-nav").style.display='block';
+  }
+  
+function mobileoff() {
+    document.getElementById("mobile-nav").style.display = 'none';
+  }
 window.addEventListener("load", myInit, true); function myInit(){OnStart()};
     function OnStart(){
         //Background
@@ -21,13 +30,5 @@ window.addEventListener("load", myInit, true); function myInit(){OnStart()};
 
     document.getElementById("btnon").addEventListener("click", mobileon);
     document.getElementById("btnoff").addEventListener("click", mobileoff);
-    function mobileon() {
-        console.log("asd");
-        //document.getElementById("mobile-nav").style.display='block';
-      }
-      
-    function mobileoff() {
-        document.getElementById("mobile-nav").style.display = 'none';
-      }
 
       
