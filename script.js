@@ -1,10 +1,12 @@
 
 function mobileon() {
-    console.log("on")
+    var element = document.getElementById('mobile-nav');
+    element.style.display = `block`;
   }
   
 function mobileoff() {
-    console.log("off")
+    var element = document.getElementById('mobile-nav');
+    element.style.display = `none`;
   }
 window.addEventListener("load", myInit, true); function myInit(){OnStart()};
     function OnStart(){
