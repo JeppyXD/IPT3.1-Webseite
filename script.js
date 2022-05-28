@@ -6,7 +6,7 @@ function mobileon() {
 function mobileoff() {
     document.getElementById("mobile-nav").style.display = "none";
   }
-window.addEventListener("load", myInit, true); function myInit(){OnStart()};
+window.addEventListener("load", myInit, true); function myInit(){OnStart(), mobileoff(), mobileon()};
     function OnStart(){
         //Background
         const body = document.querySelector("body");
