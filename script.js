@@ -16,7 +16,7 @@ window.addEventListener("load", myInit, true); function myInit(){OnStart()};
             content.classList.add('active');
             setTimeout(() => {  content.classList.remove('ani'); }, 0);
         }
-    });
+    })
 
 
     document.getElementById("btnon").addEventListener("click", mobileon);
@@ -25,7 +25,7 @@ window.addEventListener("load", myInit, true); function myInit(){OnStart()};
         document.getElementById("mobile-nav").style.display='block';
       }
       
-      function mobileoff() {
+    function mobileoff() {
         document.getElementById("mobile-nav").style.display = 'none';
       }
 
