@@ -1,8 +1,11 @@
 
 function mobileon() {
-    document.getElementsByClassName("mobile-nav").style.display=`block`;
+    document.getElementById("mobile-nav").style.display="block";
   }
-
+  
+function mobileoff() {
+    document.getElementById("mobile-nav").style.display = `none`;
+  }
 window.addEventListener("load", myInit, true); function myInit(){OnStart()};
     function OnStart(){
         //Background
@@ -22,5 +25,9 @@ window.addEventListener("load", myInit, true); function myInit(){OnStart()};
             setTimeout(() => {  content.classList.remove('ani'); }, 0);
         }
     })
+
+
+    document.getElementById("btnon").addEventListener("click", mobileon);
+    document.getElementById("btnoff").addEventListener("click", mobileoff);
 
       
