@@ -363,7 +363,7 @@ footer li, footer ul{
     opacity: 1;
 }
 
-body div a{
+.mobilea{
     color: white;
     display: block;
     text-decoration: none;
