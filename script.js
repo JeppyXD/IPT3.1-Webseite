@@ -1,12 +1,12 @@
 
 function mobileon() {
-    document.getElementById("mobile-nav").style.display="block";
+    document.getElementById("mobile-nav").style.display=`block`;
   }
   
 function mobileoff() {
-    document.getElementById("mobile-nav").style.display = "none";
+    document.getElementById("mobile-nav").style.display = `none`;
   }
-window.addEventListener("load", myInit, true); function myInit(){OnStart(), mobileoff(), mobileon()};
+window.addEventListener("load", myInit, true); function myInit(){OnStart()};
     function OnStart(){
         //Background
         const body = document.querySelector("body");
