@@ -1,10 +1,10 @@
 
 function mobileon() {
-    document.getElementById("mobile-nav").style.display=`block`;
+    document.getElementsByClassName("mobile-nav").style.display=`block`;
   }
   
 function mobileoff() {
-    document.getElementById("mobile-nav").style.display = `none`;
+    document.getElementsByClassName("mobile-nav").style.display = `none`;
   }
 window.addEventListener("load", myInit, true); function myInit(){OnStart()};
     function OnStart(){

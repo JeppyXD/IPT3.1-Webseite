@@ -91,7 +91,7 @@ iframe{
     max-width: 100%;
 }
 
-#mobile-nav{
+.mobile-nav{
   position: fixed;
   display: none;
   width: 100%;
