@@ -39,7 +39,7 @@ body{
 h1{
     max-lines: 1;
     font-family: AmsiBoldItalic;
-    font-size: 1.5em;
+    font-size: 3em;
     margin: 0;
 }
 h2{
@@ -61,7 +61,7 @@ h6{
 }
 
 p{
-    font-size: 30px;
+    font-size: 1.75em;
     line-height: 1.25;
     word-spacing: 5px;
 }
@@ -91,6 +91,19 @@ iframe{
     max-width: 100%;
 }
 
+#mobile-nav{
+  position: fixed; /* Sit on top of the page content */
+  display: none;
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
 /*Classes*/
 
 .flex-container {
@@ -118,11 +131,6 @@ iframe{
 
 .wrap{
     overflow: auto;
-}
-
-.Logo{
-    width: 17vw;
-    vertical-align: middle;
 }
 
 .paragraph-trenner{
@@ -192,6 +200,12 @@ iframe{
 }
 
 /*Navigation*/
+
+.Logo{
+    width: 10em;
+    vertical-align: middle;
+}
+
 nav{
     margin: 0 12.5%;
     padding: 2vw;
@@ -201,7 +215,7 @@ nav{
 .colorramp{
     background: linear-gradient(90deg,#FF09E0, #FF7D00);
     width: 100%;
-    height: 0.3vw;
+    height: 0.4em;
 }
 .header-navigation{
     background-color: rgba(0, 0, 0, 0.6);
@@ -212,7 +226,7 @@ header nav {
 }
 
 nav a{
-    font-size: 1.5vw;
+    font-size: 2em;
     font-family: LogoFont;
     text-decoration: none;
     color: white;
@@ -305,21 +319,55 @@ footer li, footer ul{
     transition: 0.1s;
 }
 
+.mobilemenu{
+    display: none;
+    height: 5em;
+    vertical-align: middle;
+    padding: 1em;
+}
+
 .link:hover{
     text-decoration: underline 2px white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5 {
       flex: 100%;
+    }
+    p{
+        font-size: 1em;
+    }
+    nav a:not(.LogoClick), .dropdown{
+        display: none;
+    }
+    .Logo{
+        width: 10em;
+        display: block;
+
+    }
+    .colorramp{
+        height: 0.4em;
+    }
+    .mobilemenu{
+        display: block;
+        position: absolute;
     }
 }
 
 .ani{
     opacity: 0;
-    transition: 5s ease;
+    transition: 2s ease;
 }
 
 .active{
     opacity: 1;
+}
+
+body div a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: logofont;
+    line-height: 2em;
 }

@@ -5,15 +5,26 @@
         <link rel="stylesheet" href="/styles.css">
         <meta charset="UTF-8">
         <link rel="shortcut icon" type="image/png" href="/images/icon.png">
-        <?php include 'footer.php';?>
     </head>
     <body>
+        <div id="mobile-nav" onclick="off()">
+            <a href="/index.html" class="LogoClick center">Home</a>
+            <a href="/news.html" class="LogoClick center">News</a>
+            <a href="/cars.html" class="LogoClick center">Cars</a>
+            <a href="/map.html" class="LogoClick center">Map</a>
+            <a href="/tuning.html" class="LogoClick center">Tuning</a>
+            <a href="/tips.html" class="LogoClick center">Tips</a>
+            <a href="/aboutme.html" class="LogoClick center">About Me</a>
+        </div>
         <header>
             <div class="colorramp"></div>
                 <div class="header-navigation">
-                    <nav>
+                    <div>
+                        <img src="/images/menu-icon.png" class="mobilemenu" alt="Start" onclick="on()">
+                    </div>
+                    <nav class="center">
                         <a href="/index.html" class="LogoClick">
-                            <img src="/images/Logo2.png" class="Logo" alt="Start">
+                            <img src="/images/Logo2.png" class="Logo center" alt="Start">
                         </a>
                         <a href="/news.html">News</a>
                         <div class="dropdown">
@@ -25,7 +36,7 @@
                                 <a href="/cars/prstunts.html">PR Stunts</a>
                                 <a href="/cars/streetracing.html">Street Racing</a>
                             </div>
-                          </div>
+                        </div>
                         <a href="/map.html">Map</a>
                         <a href="/tuning.html">Tuning</a>
                         <a href="/tips.html">Tips</a>
