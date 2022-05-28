@@ -1,11 +1,3 @@
-function on() {
-    document.getElementById("mobile-nav").style.display='block';
-  }
-  
-  function off() {
-    document.getElementById("mobile-nav").style.display = 'none';
-  } 
-
 window.addEventListener("load", myInit, true); function myInit(){OnStart()};
     function OnStart(){
         //Background
@@ -25,4 +17,12 @@ window.addEventListener("load", myInit, true); function myInit(){OnStart()};
             setTimeout(() => {  content.classList.remove('ani'); }, 0);
         }
     });
+
+    function mobileon() {
+        document.getElementById("mobile-nav").style.display='block';
+      }
+      
+      function mobileoff() {
+        document.getElementById("mobile-nav").style.display = 'none';
+      } 
     
