@@ -1,8 +1,13 @@
-window.addEventListener("load", myInit, true); function myInit(){mobileon()};
+window.addEventListener("load", myInit, true); function myInit(){OnStart()};
 
 function mobileon() {
     var element = document.getElementById('mobile-nav');
     element.style.display = `block`;
+}
+
+function mobileoff() {
+    var element = document.getElementById('mobile-nav');
+    element.style.display = `none`;
 }
   
 function OnStart(){
