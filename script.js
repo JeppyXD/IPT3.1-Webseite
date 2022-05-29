@@ -2,12 +2,10 @@ window.addEventListener("load", myInit, true); function myInit(){OnStart()};
 
 function mobileon() {
     document.getElementById('mobile-nav').style.display = `block`;
-    document.getElementsByClassName('mobilemenu').style.display = `none`;
 }
 
 function mobileoff() {
     document.getElementById('mobile-nav').style.display = `none`;
-    document.getElementsByClassName('mobilemenu').style.display = `block`;
 }
   
 function OnStart(){
