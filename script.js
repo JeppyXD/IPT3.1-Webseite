@@ -1,13 +1,13 @@
 window.addEventListener("load", myInit, true); function myInit(){OnStart()};
 
 function mobileon() {
-    var element = document.getElementById('mobile-nav');
-    element.style.display = `block`;
+    document.getElementById('mobile-nav').style.display = `block`;
+    document.getElementsByClassName('mobilemenu').style.display = `none`;
 }
 
 function mobileoff() {
-    var element = document.getElementById('mobile-nav');
-    element.style.display = `none`;
+    document.getElementById('mobile-nav').style.display = `none`;
+    document.getElementsByClassName('mobilemenu').style.display = `block`;
 }
   
 function OnStart(){
@@ -29,7 +29,7 @@ function OnStart(){
         }
     })
 
-
     document.getElementById("btnon").addEventListener("click", mobileon);
+    document.getElementById("btnoff").addEventListener("click", mobileoff);
 
       

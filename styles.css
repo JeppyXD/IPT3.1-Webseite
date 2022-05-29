@@ -43,26 +43,25 @@ h1{
     margin: 0;
 }
 h2{
-    font-size: 1em;
+    font-size: 2em;
     margin: 0.5vw 0;
 }
 h3{
     font-size: em;
 }
 h4{
-    font-size: 0.5em;
+    font-size: 1em;
     line-height: 1.5em;
 }
 h5{
-    font-size: 0.75vw;
+    font-size: 0.75em;
 }
 h6{
-    font-size: 0.5vw;
+    font-size: 0.5em;
 }
 
 p{
     font-size: 1.75em;
-    line-height: 1.25;
     word-spacing: 5px;
 }
 
@@ -195,9 +194,6 @@ iframe{
     text-decoration: none;
 }
 
-.carlist{
-    font-size: 3.5vw;
-}
 
 /*Navigation*/
 
@@ -367,7 +363,7 @@ footer li, footer ul{
     color: white;
     display: block;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 4em;
     font-family: logofont;
     line-height: 2em;
 
