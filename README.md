@@ -1,44 +1,12 @@
-<h1>IPT 3.1 Webseite</h1>
-<h3>von Joel Erni</h3>
-
-
-<h1 align="center">pico-ducky</h1>
-
+<h1 align="center">IPT 3.1 Webseite</h1>
+<h3 align="center">von Joel Erni</h3>
 <div align="center">
-  <strong>Make a cheap but powerful USB Rubber Ducky with a Raspberry Pi Pico</strong>
+  <strong>Guide für Anfänger über Forza Horizon 5!</strong>
 </div>
 
-<br />
+## Webseite
 
-<div align="center">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/dbisu/pico-ducky">
-  <img alt="GitHub license" src="https://img.shields.io/github/license/dbisu/pico-ducky">
-  <a href="https://github.com/dbisu/pico-ducky/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/dbisu/pico-ducky"></a>
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/dbisu/pico-ducky">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/dbisu/pico-ducky">
-</div>
-
-<br />
-
-## Install
-
-Install and have your USB Rubber Ducky working in less than 5 minutes.
-
-1. Download [CircuitPython for the Raspberry Pi Pico](https://circuitpython.org/board/raspberry_pi_pico/). *Updated to 7.0.0
-
-2. Plug the device into a USB port while holding the boot button. It will show up as a removable media device named `RPI-RP2`.
-
-3. Copy the downloaded `.uf2` file to the root of the Pico (`RPI-RP2`). The device will reboot and after a second or so, it will reconnect as `CIRCUITPY`.
-
-4. Download `adafruit-circuitpython-bundle-7.x-mpy-YYYYMMDD.zip` [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest) and extract it outside the device.
-
-5. Navigate to `lib` in the recently extracted folder and copy `adafruit_hid` to the `lib` folder in your Raspberry Pi Pico.
-
-6. Click [here](https://raw.githubusercontent.com/dbisu/pico-ducky/main/duckyinpython.py), press CTRL + S and save the file as `code.py` in the root of the Raspberry Pi Pico, overwriting the previous file.
-
-7. Find a script [here](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads) or [create your own one using Ducky Script](https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript) and save it as `payload.dd` in the Pico.
-
-8. Be careful, if your device isn't in [setup mode](#setup-mode), the device will reboot and after half a second, the script will run.
+Die Webseite kann [hier](https://www.ipt3.joel-erni1.bbzwinf.ch) besucht werden.
 
 ### Setup mode
 
