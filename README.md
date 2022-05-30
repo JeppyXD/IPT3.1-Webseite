@@ -6,7 +6,5 @@
 
 ### Webseite
 
-Die Webseite kann [hier](https://www.ipt3.joel-erni1.bbzwinf.ch) besucht werden.
+Die Webseite kann [hier](https://www.ipt3.joel-erni1.bbzwinf.ch) besucht werden.<br>
 URL: (`ipt3.joel-erni1.bbzwinf.ch`)
-
-<img src=("images/logo.png")>
