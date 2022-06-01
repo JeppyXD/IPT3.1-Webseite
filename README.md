@@ -1,5 +1,4 @@
 <h1 align="center">IPT 3.1 Webseite</h1>
-! [Logo] (https://ipt3.joel-erni1.bbzwinf.ch/images/logo.png)
 <h3 align="center">von Joel Erni</h3>
 <div align="center">
   <strong>Guide für Anfänger über Forza Horizon 5!</strong>
