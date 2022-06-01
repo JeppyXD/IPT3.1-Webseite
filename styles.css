@@ -326,6 +326,8 @@ footer li, footer ul{
     text-decoration: underline 2px white;
 }
 
+
+
 @media only screen and (max-width: 1000px) {
     .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5 {
       flex: 100%;
@@ -347,6 +349,12 @@ footer li, footer ul{
     .mobilemenu{
         display: block;
         position: absolute;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .coverflex {
+      flex: 100%;
     }
 }
 
