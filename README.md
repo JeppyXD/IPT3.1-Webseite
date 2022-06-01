@@ -1,5 +1,5 @@
 <h1 align="center">IPT 3.1 Webseite</h1>
-<img src="/images/logo.png">
+![alt text](/images/Logo.png)
 <h3 align="center">von Joel Erni</h3>
 <div align="center">
   <strong>Guide für Anfänger über Forza Horizon 5!</strong>
