@@ -322,6 +322,10 @@ footer li, footer ul{
     top: 2.4em;
 }
 
+.mobilemenu:hover{
+    cursor:pointer;
+}
+
 .link:hover{
     text-decoration: underline 2px white;
 }
@@ -339,7 +343,7 @@ footer li, footer ul{
         display: none;
     }
     .Logo{
-        width: 20em;
+        width: 65vw;
         display: block;
 
     }
