@@ -84,7 +84,7 @@
                         <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php while($row = mysqli_fetch_assoc($result5)) {echo $row["bez"];?></h1>
                         <div class="flex-container">
                             <div class="flex-item1" style="margin: auto 1vw;">
-                                <img class="center" alt="<?php echo $row["Bez"];?>" src="/images/cars/<?php echo $gt?>/5.png" width="500em">
+                                <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/5.png" width="500em">
                             </div>
                             <div class="flex-item2">
                                 <div><h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2></div>
@@ -145,7 +145,7 @@
                         <h1 class="center" style="line-height: 1; margin-bottom: 1.5vw;"><?php while($row = mysqli_fetch_assoc($result4)) {echo $row["bez"];?></h1>
                         <div class="flex-container" >
                             <div class="flex-item1" style="margin: auto 1vw;">
-                                <img class="center" src="/images/cars/<?php echo $gt?>/4.png" width="500em">
+                                <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/4.png" width="500em">
                             </div>
                             <div class="flex-item2" style="margin: auto 1vw;">
                                 <h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2>
@@ -202,7 +202,7 @@
                         <h1 class="center" style="line-height: 1; margin-bottom: 1.5vw;"><?php while($row = mysqli_fetch_assoc($result3)) {echo $row["bez"];?></h1>
                         <div class="flex-container">
                             <div class="flex-item1" style="margin: auto 1vw;">
-                                <img class="center fade-in" src="/images/cars/<?php echo $gt?>/3.png" width="500em">
+                                <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/3.png" width="500em">
                             </div>
                             <div class="flex-item2" style="margin: auto 1vw;">
                                 <h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2>
@@ -259,7 +259,7 @@
                         <h1 class="center" style="line-height: 1; margin-bottom: 30px;"><?php while($row = mysqli_fetch_assoc($result2)) {echo $row["bez"];?></h1>
                         <div class="flex-container" >
                             <div class="flex-item1" style="margin: auto 1vw;">
-                                <img class="center" src="/images/cars/<?php echo $gt?>/2.png" width="500em">
+                                <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/2.png" width="500em">
                             </div>
                             <div class="flex-item2" style="margin: auto 1vw;">
                                 <h2 style="margin-bottom: -0.25vw; font-size: 1.5vw;" class="center"><?php echo $row["price"];?></h2>
@@ -316,7 +316,7 @@
                         <h1 class="center" style="line-height: 1; margin-bottom: 1.5vw;"><?php while($row = mysqli_fetch_assoc($result1)) {echo $row["bez"];?></h1>
                         <div class="flex-container" >
                             <div class="flex-item1" style="margin: auto 1vw;">
-                                <img class="center" src="/images/cars/<?php echo $gt?>/1.png" width="500em">
+                                <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/1.png" width="500em">
                             </div>
                             <div class="flex-item2" style="margin: auto 1vw;">
                                 <h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2>
