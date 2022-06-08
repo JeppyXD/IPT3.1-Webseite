@@ -139,7 +139,7 @@
                         </div>
                     </div>
                 </li>
-                <div class="paragraph-trenner"></div>
+                <div class="subparagraph-trenner"></div>
                 <li class="carlist">
                     <div>
                         <h1 class="center" style="line-height: 1; margin-bottom: 1.5vw;"><?php while($row = mysqli_fetch_assoc($result4)) {echo $row["bez"];?></h1>
@@ -196,7 +196,7 @@
                         <h4><?php echo $row["besch"];}?></h4>
                     </div>
                 </li>
-                <div class="paragraph-trenner"></div>
+                <div class="subparagraph-trenner"></div>
                 <li class="carlist">
                     <div>
                         <h1 class="center" style="line-height: 1; margin-bottom: 1.5vw;"><?php while($row = mysqli_fetch_assoc($result3)) {echo $row["bez"];?></h1>
@@ -253,7 +253,7 @@
                         <h4><?php echo $row["besch"];}?></h4>
                     </div>
                 </li>
-                <div class="paragraph-trenner"></div>
+                <div class="subparagraph-trenner"></div>
                 <li class="carlist">
                     <div>
                         <h1 class="center" style="line-height: 1; margin-bottom: 30px;"><?php while($row = mysqli_fetch_assoc($result2)) {echo $row["bez"];?></h1>
@@ -310,7 +310,7 @@
                         <h4><?php echo $row["besch"];}?></h4>
                     </div>
                 </li>
-                <div class="paragraph-trenner"></div>
+                <div class="subparagraph-trenner"></div>
                 <li class="carlist">
                     <div>
                         <h1 class="center" style="line-height: 1; margin-bottom: 1.5vw;"><?php while($row = mysqli_fetch_assoc($result1)) {echo $row["bez"];?></h1>

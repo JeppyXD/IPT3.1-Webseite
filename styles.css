@@ -66,7 +66,7 @@ p{
 }
 
 article{
-    margin: 3% 10vw;
+    margin: 3% 15vw;
     padding: 2% 5%;
     background: rgba(0, 0, 0, 0.4);
     min-height: 600px;
@@ -103,7 +103,53 @@ iframe{
   z-index: 2;
 }
 
+img{
+    border-radius: 5px;
+}
+
 /*Classes*/
+
+.ani{
+    opacity: 0;
+    transition: 2s ease;
+}
+
+.active{
+    opacity: 1;
+}
+
+.mobilea{
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 4em;
+    font-family: logofont;
+    line-height: 2em;
+
+}
+
+.downloadbtn{
+    background-color:#000000a1;
+    width: 30em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: white 0.2em solid;
+    border-radius: 1em;
+    color: white;
+    transition: 0.1s;
+}
+
+.downloadbtn:hover, .downloadbtn p{
+    background-color: #4d4d4da1;
+    text-decoration: underline white;
+    cursor:pointer;
+}
+
+.download{
+    text-decoration: none;
+}
 
 .flex-container {
     display: flex;
@@ -140,14 +186,14 @@ iframe{
     border-radius: 2px;
 }
 
-.floatleft {
-    float: left;
+.subparagraph-trenner{
+    width: 70%;
+    height: 3px;
+    background: linear-gradient(90deg,#FF09E0, #FF7D00);
+    display: block;
+    margin: 30px auto;
+    border-radius: 2px;
 }
-
-.floatright {
-    float: right;
-}
-
 
 .center{
     display: block;
@@ -243,14 +289,14 @@ nav a:hover:not(.LogoClick){
     display: none;
     position: absolute;
     background-color: #000000a1;
-    min-width: 14vw;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
   
 .dropdown-content a {
-    padding: 1.5vh 2vh;
-    font-size: 1.75vh;
+    padding: 1em;
+    font-size: 1em;
     word-spacing: normal;
     text-decoration: none;
     display: block;
@@ -331,7 +377,7 @@ footer li, footer ul{
 }
 
 
-
+/*mobile*/
 @media only screen and (max-width: 1000px) {
     .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5 {
       flex: 100%;
@@ -357,6 +403,9 @@ footer li, footer ul{
     h1{
         font-size:2.5em;
     }
+    .dropdown, .dropdown-content{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1550px) {
@@ -365,47 +414,7 @@ footer li, footer ul{
     }
 }
 
-.ani{
-    opacity: 0;
-    transition: 2s ease;
-}
-
-.active{
-    opacity: 1;
-}
-
-.mobilea{
-    color: white;
-    display: block;
-    text-decoration: none;
-    font-size: 4em;
-    font-family: logofont;
-    line-height: 2em;
-
-}
-
-.downloadbtn{
-    background-color:#000000a1;
-    width: 30em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    border: white 0.2em solid;
-    border-radius: 1em;
-    color: white;
-    transition: 0.1s;
-}
-
-.downloadbtn:hover, .downloadbtn p{
-    background-color: #4d4d4da1;
-    text-decoration: underline white;
-    cursor:pointer;
-}
-
-.download{
-    text-decoration: none;
-}
+/*List*/
 
 li p{
     margin: 0;
