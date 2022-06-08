@@ -380,7 +380,7 @@ footer li, footer ul{
 
 /*mobile*/
 @media only screen and (max-width: 1000px) {
-    .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5 {
+    .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5,.footerflex {
       flex: 100%;
     }
     p{
