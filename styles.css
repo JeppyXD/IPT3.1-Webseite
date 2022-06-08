@@ -383,6 +383,13 @@ footer li, footer ul{
     .flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item5,.footerflex {
       flex: 100%;
     }
+    .footerflex h3{
+        font-size: 2em;
+    }
+    .footerflex li a{
+        font-size: 1.5em;
+        line-height: 2em;
+    }
     p{
         font-size: 1em;
     }
