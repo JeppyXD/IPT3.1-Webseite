@@ -3,7 +3,7 @@
 	$username = "joel.erni";
 	$password = "Jsf87648?";
 	$dbname = "FH5";
-	$type = 3;
+	$type = htmlspecialchars($_GET["type"]);
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
