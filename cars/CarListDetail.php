@@ -134,7 +134,7 @@
                         </a>
                     </div>
             <div class="paragraph-trenner"></div>
-            <a href="/cars/CarList.php/?type=<?php echo $rank?>" class="center default link"><h3>&#129080;Go Back</h3></a>
+            <a href="/cars/CarList.php/?type=<?php echo $type?>" class="center default link"><h3>&#129080;Go Back</h3></a>
 
         </article>
         <footer>
