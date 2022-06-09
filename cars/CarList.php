@@ -88,7 +88,6 @@
                                 <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/5.png" width="450em">
                             </div>
                             <div class="flex-item2">
-                                <div><h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2></div>
                                 <div>
                                     <table width="100%">
                                     <tr>
@@ -148,7 +147,6 @@
                                 <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/4.png" width="450em">
                             </div>
                             <div class="flex-item2">
-                                <div><h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2></div>
                                 <div>
                                     <table width="100%">
                                     <tr>
@@ -208,7 +206,6 @@
                                 <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/3.png" width="450em">
                             </div>
                             <div class="flex-item2">
-                                <div><h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2></div>
                                 <div>
                                     <table width="100%">
                                     <tr>
@@ -268,7 +265,6 @@
                                 <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/2.png" width="450em">
                             </div>
                             <div class="flex-item2">
-                                <div><h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2></div>
                                 <div>
                                     <table width="100%">
                                     <tr>
@@ -328,7 +324,6 @@
                                 <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/1.png" width="450em">
                             </div>
                             <div class="flex-item2">
-                                <div><h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2></div>
                                 <div>
                                     <table width="100%">
                                     <tr>
