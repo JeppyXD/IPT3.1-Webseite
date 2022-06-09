@@ -71,7 +71,7 @@
             <div class="colorramp"></div>
         </header>
         <article>
-            <h1 class="center" style="font-size: 4em;">Number <?php while($row = mysqli_fetch_assoc($result)) {echo $row["rank"]; ?> for <?php echo $gt["bez"];?></h1>
+            <h1 class="center" style="font-size: 4em;">Number <?php while($row = mysqli_fetch_assoc($result)) {echo $row["rank"]; ?> for <?php echo $gt;?></h1>
             <div class="paragraph-trenner"></div>
                 <div>
                         <a href="/cars/CarListDetail.php/?rank=<?php echo $row["rank"];?>&type=<?php echo htmlspecialchars($_GET["type"]);?>"></h1>
