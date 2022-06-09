@@ -4,6 +4,7 @@
 	$password = "Jsf87648?";
 	$dbname = "FH5";
 	$type = htmlspecialchars($_GET["type"]);
+    $rank = htmlspecialchars($_GET["rank"]);
 
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -77,13 +78,12 @@
         <article>
             <h1 class="center" style="font-size: 4em;">Top 5 cars for <?php echo $gt?></h1>
             <div class="paragraph-trenner"></div>
-
                 <div>
                         <a href="/cars/CarListDetail.php/?rank=<?php while($row = mysqli_fetch_assoc($result1)) {echo $row["rank"];?>&type=<?php echo htmlspecialchars($_GET["type"]);?>"></h1>
                         <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php echo $row["bez"];?></h1>
                         <div class="flex-container">
                             <div class="flex-item1" style="margin: auto 1vw;">
-                                <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/1.png" width="500em">
+                                <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/<?php echo $row["rank"];?>.png" width="500em">
                             </div>
                             <div class="flex-item2">
                                 <div><h2 style="margin-bottom: -0.25vw; font-size: 30px;" class="center"><?php echo $row["price"];?></h2></div>
