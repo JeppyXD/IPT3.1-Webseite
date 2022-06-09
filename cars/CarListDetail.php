@@ -13,7 +13,7 @@
 		die("Connection failed: " . mysqli_connect_error());
 	}
 
-	
+	$result = mysqli_query($conn, "SELECT * FROM car WHERE rank=$rank AND fk_racetypeid = $type");
 	$result5 = mysqli_query($conn, "SELECT * FROM car WHERE rank=5 AND fk_racetypeid = $type");
 	$result4 = mysqli_query($conn, "SELECT * FROM car WHERE rank=4 AND fk_racetypeid = $type");
 	$result3 = mysqli_query($conn, "SELECT * FROM car WHERE rank=3 AND fk_racetypeid = $type");
@@ -79,7 +79,7 @@
             <h1 class="center" style="font-size: 4em;">Top 5 cars for <?php echo $gt?></h1>
             <div class="paragraph-trenner"></div>
                 <div>
-                        <a href="/cars/CarListDetail.php/?rank=<?php while($row = mysqli_fetch_assoc($result1)) {echo $row["rank"];?>&type=<?php echo htmlspecialchars($_GET["type"]);?>"></h1>
+                        <a href="/cars/CarListDetail.php/?rank=<?php while($row = mysqli_fetch_assoc($result)) {echo $row["rank"];?>&type=<?php echo htmlspecialchars($_GET["type"]);?>"></h1>
                         <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php echo $row["bez"];?></h1>
                         <div class="flex-container">
                             <div class="flex-item1" style="margin: auto 1vw;">
