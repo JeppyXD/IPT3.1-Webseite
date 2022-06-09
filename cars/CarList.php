@@ -81,7 +81,8 @@
             <ol reversed>
                 <li class="carlist">
                     <div>
-                        <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php while($row = mysqli_fetch_assoc($result5)) {echo $row["bez"];?></h1>
+                        <a href="/cars/CarsListDetail.php/?rank=<?php while($row = mysqli_fetch_assoc($result5)) {echo $row["rank"];?>&<?php echo htmlspecialchars($_GET["type"]);?>"></h1>
+                        <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php echo $row["bez"];?></h1>
                         <div class="flex-container">
                             <div class="flex-item1" style="margin: auto 1vw;">
                                 <img class="center" alt="<?php echo $row["bez"];?>" src="/images/cars/<?php echo $gt?>/5.png" width="500em">
@@ -137,6 +138,7 @@
                         <div>
                             <h4><?php echo $row["besch"];}?></h4>
                         </div>
+                        </a>
                     </div>
                 </li>
                 <div class="subparagraph-trenner"></div>
