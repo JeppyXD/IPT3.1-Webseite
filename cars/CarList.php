@@ -81,7 +81,7 @@
             <ol reversed>
                 <li class="carlist">
                     <div>
-                        <a href="/cars/CarListDetail.php/?rank=<?php while($row = mysqli_fetch_assoc($result5)) {echo $row["rank"];?>&type=<?php echo htmlspecialchars($_GET["type"]);?>"></h1>
+                        <a class="CarLink" href="/cars/CarListDetail.php/?rank=<?php while($row = mysqli_fetch_assoc($result5)) {echo $row["rank"];?>&type=<?php echo htmlspecialchars($_GET["type"]);?>"></h1>
                         <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php echo $row["bez"];?></h1>
                         <div class="flex-container">
                             <div class="flex-item1" style="margin: auto 1vw;">

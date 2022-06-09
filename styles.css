@@ -109,6 +109,11 @@ img{
 
 /*Classes*/
 
+.CarLink{
+    color: white;
+    text-decoration: none;
+}
+
 .ani{
     opacity: 0;
     transition: 2s ease;
