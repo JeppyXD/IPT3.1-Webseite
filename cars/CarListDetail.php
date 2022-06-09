@@ -74,7 +74,6 @@
             <h1 class="center" style="font-size: 4em;">Number <?php while($row = mysqli_fetch_assoc($result)) {echo $row["rank"]; ?>. in <?php echo $gt;?></h1>
             <div class="paragraph-trenner"></div>
                 <div>
-                        <a href="/cars/CarListDetail.php/?rank=<?php echo $row["rank"];?>&type=<?php echo htmlspecialchars($_GET["type"]);?>"></h1>
                         <h1 class="center" style="line-height: 1; margin-bottom: 40px;"><?php echo $row["bez"];?></h1>
                         <div class="flex-container">
                             <div class="flex-item1" style="margin: auto 1vw;">
@@ -131,7 +130,6 @@
                         <div>
                             <p style="font-size: 1.5em"><?php echo $row["besch"];}?></p>
                         </div>
-                        </a>
                     </div>
             <div class="paragraph-trenner"></div>
             <a href="/cars/CarList.php/?type=<?php echo $type?>" class="center default link"><h3>&#129080;Go Back</h3></a>
