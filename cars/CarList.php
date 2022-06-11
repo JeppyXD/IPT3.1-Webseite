@@ -370,7 +370,7 @@
                             </div>
                             </div>
                         </div>
-                        <h2>Click for more information</h2>
+                        <h3 class="center">Click for more information</h3>
                         </a>
                     </div>
                 </li>
