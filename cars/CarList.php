@@ -134,6 +134,7 @@
                             </div>
                             </div>
                         </div>
+                        <h3 class="center link">Click for more information</h3>
                         </a>
                     </div>
                 </li>
@@ -193,6 +194,7 @@
                             </div>
                             </div>
                         </div>
+                        <h3 class="center link">Click for more information</h3>
                         </a>
                     </div>
                 </li>
@@ -252,6 +254,7 @@
                             </div>
                             </div>
                         </div>
+                        <h3 class="center link">Click for more information</h3>
                         </a>
                     </div>
                 </li>
@@ -311,6 +314,7 @@
                             </div>
                             </div>
                         </div>
+                        <h3 class="center link">Click for more information</h3>
                         </a>
                     </div>
                 </li>
