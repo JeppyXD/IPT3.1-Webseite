@@ -125,8 +125,8 @@
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
-                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];}?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
+                                                 <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; }?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -184,8 +184,8 @@
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
-                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];}?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; }?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -243,8 +243,8 @@
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
-                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];}?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; }?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -302,8 +302,8 @@
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
-                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];}?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; }?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -361,8 +361,8 @@
                                         </th>
                                         <th>
                                             <div style="margin:0.5vw">
-                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];}?></h3>
-                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; ?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
+                                                <h3 class="center" style="margin: 0; line-height:1.5em;">Offroad<br><?php echo $row["offroad"];?></h3>
+                                                <div class="center" style="width: 10vw; height: 0.5vw; background-image: linear-gradient(to right, #FF09E0, #FF7D00 <?php echo $row["offroad"]*10; }?>%,rgba(0, 0, 0, 0.5) 0%);"></div>        
                                             </div>
                                         </th>
                                     </tr>
@@ -370,6 +370,7 @@
                             </div>
                             </div>
                         </div>
+                        <h2>Click for more information</h2>
                         </a>
                     </div>
                 </li>
