@@ -109,6 +109,10 @@ img{
 
 /*Classes*/
 
+.tipsimg{
+    width: 40em;
+}
+
 .CarLink{
     color: white;
     text-decoration: none;
