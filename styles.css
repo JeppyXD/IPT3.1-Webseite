@@ -419,6 +419,9 @@ footer li, footer ul{
     .dropdown, .dropdown-content{
         display: none;
     }
+    .racetypes{
+        margin-top: 3em;
+    }
 }
 
 @media only screen and (max-width: 1550px) {
