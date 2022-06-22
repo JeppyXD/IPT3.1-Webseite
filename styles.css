@@ -120,7 +120,7 @@ img{
 
 .ani{
     opacity: 0;
-    transition: 2s ease;
+    transition: 1s ease;
 }
 
 .active{
