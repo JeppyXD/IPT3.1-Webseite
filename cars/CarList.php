@@ -408,7 +408,7 @@
                     <ul>
                         <li><a href="/aboutme.html">About me</a></li>
                         <li><a href="https://c.tenor.com/_4YgA77ExHEAAAAC/rick-roll.gif" target="_blank">AGB</a></li>
-                        <li><a href="https://c.tenor.com/rUa8MTSuXFEAAAAd/who-cares.gif" target="_blank">Disclaimer</a></li>
+                        <li><a href="/disclaimer.html" target="_blank">Disclaimer</a></li>
                     </ul>
                 </div>
             </div>

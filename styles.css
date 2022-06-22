@@ -109,6 +109,7 @@ img{
 
 /*Classes*/
 
+
 .tipsimg{
     width: 800px;
 }
@@ -380,6 +381,11 @@ footer li, footer ul{
 
 .mobilemenu:hover{
     cursor:pointer;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
 }
 
 .link:hover{
