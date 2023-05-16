@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost:3306";
 	$username = "joel.erni";
-	$password = "Jsf87648?";
+	$password = "";
 	$dbname = "FH5";
 	$type = htmlspecialchars($_GET["type"]);
     $rank = htmlspecialchars($_GET["rank"]);
